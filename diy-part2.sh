@@ -10,7 +10,7 @@
 # Description: OpenWrt DIY script part 2 (After Update feeds)
 #
 #修改默认IP
-sed -i 's/192.168.1.1/10.0.5.1/g’ package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/10.0.5.1/g' package/base-files/files/bin/config_generate
 
 # 修改主机名
 # sed -i 's/ OpenWrt/Sunvid /g' package/base-files/files/bin/config_generate

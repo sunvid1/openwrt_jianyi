@@ -31,4 +31,4 @@ sed -i ' s/set system.@system[-1].hostname= ' OpenWrt ' /set system.@system[-1].
 # sed -i "DISTRIB_REVISION='R21.6.1'" >> /etc/openwrt_release
 
 # 修改一根尾巴名称
-sed -i " s/OpenWrt /Sunvid /g " package/lean/default-settings/files/zzz-default-settings
+sed -i 's/OpenWrt /Sunvid /g' package/lean/default-settings/files/zzz-default-settings

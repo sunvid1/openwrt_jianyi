@@ -25,7 +25,7 @@ sed -i 's/default "5"/default "0"/g' config/Config-images.in
 sed -i 's/255.255.255.0/255.255.248.0/g' package/base-files/files/bin/config_generate
 
 # 修改机器名称 #默认名称OpenWrt
-sed -i ' s/set system.@system[-1].hostname= ' OpenWrt ' /set system.@system[-1].hostname= ' Sunvid ' /g ' package/base-files/files/bin/ config_generate
+#sed -i ' s/set system.@system[-1].hostname= ' OpenWrt ' /set system.@system[-1].hostname= ' Sunvid ' /g ' package/base-files/files/bin/ config_generate
 
 # 修改票号
 # sed -i "DISTRIB_REVISION='R21.6.1'" >> /etc/openwrt_release
